@@ -3,7 +3,16 @@ MaybeNeuralNetwork (MNN) - a Bayesian Convolutional Neural Network for image cla
 
 ## Create conda Environment 
 ```
+# to activate 
 conda create --name mnn python=3.10 -y
 conda activate mnn
+
+# to deactivate
+conda deactivate
 ```
-To deactivate use `conda deactivate`
+
+## Installation 
+To install as a python module:
+```
+pip install -e .
+```
