@@ -2,9 +2,9 @@
 MaybeNeuralNetwork (MNN) - a Bayesian Convolutional Neural Network for image classification that is designed to estimate uncertainty in predictions. It'll *probably* know what its looking at!
 
 This project includes:
-	 * A PyTorch implementation of a Bayesian Neural Network (BNN)
-	 * Utilities to visualize prediction confidence and entropy
-	 * A series of notebooks that show the development from basic neural nets to full Bayesian models, both with and without PyTorch
+* A PyTorch implementation of a Bayesian Neural Network (BNN)
+* Utilities to visualize prediction confidence and entropy
+* A series of notebooks that show the development from basic neural nets to full Bayesian models, both with and without PyTorch
 
 Note that while this can be imported as a python module the notebook `torch_mnist_bnn.ipynb` includes explanations for the functions and methods to implement the BNN. Furthermore, as the project development section will go over, the additional two notebooks show the building process to a full BNN. If one would like to see the full mathematical implementations without PyTorch, `numpy_mnist_bnn.ipynb` would be the notebook to look at!
 
@@ -54,7 +54,4 @@ pip install -e .
 To run the training and evaluation pipeline 
 ```
 python main.py
-```
-
-```
 ```
